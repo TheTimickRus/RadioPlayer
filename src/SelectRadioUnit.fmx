@@ -1,0 +1,327 @@
+object SelectRadioForm: TSelectRadioForm
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = #1042#1099#1073#1086#1088' '#1088#1072#1076#1080#1086#1089#1090#1072#1085#1094#1080#1080'...'
+  ClientHeight = 299
+  ClientWidth = 498
+  Position = MainFormCenter
+  StyleBook = MainForm._StyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TreeView1: TTreeView
+    Position.X = 8.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 257.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnDblClick = TreeView1DblClick
+    DisableFocusEffect = False
+    OnChange = TreeView1Change
+    Viewport.Width = 325.000000000000000000
+    Viewport.Height = 253.000000000000000000
+    object Item1: TTreeViewItem
+      IsChecked = False
+      IsExpanded = False
+      IsSelected = False
+      TabOrder = 0
+      Text = #1056#1072#1076#1080#1086' Record (320 kbps)'
+      object Item1_01: TTreeViewItem
+        IsChecked = False
+        IsExpanded = True
+        IsSelected = False
+        TabOrder = 0
+        Text = 'Megamix'
+      end
+      object Item1_02: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 1
+        Text = 'Record Deep'
+      end
+      object Item1_03: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 2
+        Text = 'EDM'
+      end
+      object Item1_04: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 3
+        Text = 'Future House'
+      end
+      object Item1_05: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 4
+        Text = 'Trancemissoon'
+      end
+      object Item1_06: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 5
+        Text = 'Chill-Out'
+      end
+      object Item1_07: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 6
+        Text = 'Minimal\Tech'
+      end
+      object Item1_08: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 7
+        Text = 'Pirate Station'
+      end
+      object Item1_09: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 8
+        Text = 'Russian Mix'
+      end
+      object Item1_10: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 9
+        Text = 'Vip House'
+      end
+      object Item1_11: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 10
+        Text = #1057#1091#1087#1077#1088#1076#1080#1089#1082#1086' 90-'#1093
+      end
+      object Item1_12: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 11
+        Text = 'Breaks'
+      end
+      object Item1_13: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 12
+        Text = 'Dubstep'
+      end
+      object Item1_14: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 13
+        Text = 'Dancecore'
+      end
+      object Item1_15: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 14
+        Text = 'Techno'
+      end
+      object Item1_16: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 23
+        Text = 'Hardstyle'
+      end
+      object Item1_17: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 24
+        Text = 'Trap'
+      end
+      object Item1_18: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 25
+        Text = 'Old School'
+      end
+      object Item1_19: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 15
+        Text = 'Rock'
+      end
+      object Item1_20: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 16
+        Text = #1052#1077#1076#1083#1103#1082' FM'
+      end
+      object Item1_21: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 17
+        Text = #1043#1086#1087' FM'
+      end
+      object Item1_22: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 18
+        Text = 'Black'
+      end
+      object Item1_23: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 19
+        Text = 'Rave FM'
+      end
+      object Item1_24: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 20
+        Text = 'GOA\PSY'
+      end
+      object Item1_25: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 21
+        Text = 'Tropical'
+      end
+      object Item1_26: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 22
+        Text = #1053#1072#1092#1090#1072#1083#1080#1085' FM'
+      end
+    end
+    object Item2: TTreeViewItem
+      IsChecked = False
+      IsExpanded = False
+      IsSelected = False
+      TabOrder = 1
+      Text = 'Europa Plus (256 kbps)'
+      object Item2_1: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 0
+        Text = 'Top40'
+      end
+      object Item2_2: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 1
+        Text = 'Party'
+      end
+      object Item2_3: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 2
+        Text = 'Light'
+      end
+      object Item2_4: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 3
+        Text = 'New'
+      end
+      object Item2_5: TTreeViewItem
+        IsChecked = False
+        IsExpanded = False
+        IsSelected = False
+        TabOrder = 4
+        Text = 'RB'
+      end
+    end
+    object Item3: TTreeViewItem
+      IsChecked = False
+      IsExpanded = False
+      IsSelected = False
+      TabOrder = 2
+      Text = 'Love '#1056#1072#1076#1080#1086' (192 kbps)'
+    end
+    object Item4: TTreeViewItem
+      IsChecked = False
+      IsExpanded = False
+      IsSelected = False
+      TabOrder = 3
+      Text = #1058#1053#1058' Music '#1056#1072#1076#1080#1086' (192 kbps)'
+    end
+    object Item5: TTreeViewItem
+      IsChecked = False
+      IsExpanded = False
+      IsSelected = False
+      TabOrder = 4
+      Text = #1056#1072#1076#1080#1086' ENERGY (192 kbps)'
+    end
+    object Item6: TTreeViewItem
+      IsChecked = False
+      IsExpanded = False
+      IsSelected = False
+      TabOrder = 5
+      Text = #1056#1072#1076#1080#1086' '#1052#1072#1082#1089#1080#1084#1091#1084' (96 kbps)'
+    end
+  end
+  object Panel1: TPanel
+    Position.X = 344.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 62.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Cursor = crHandPoint
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1055#1088#1080#1084#1077#1085#1080#1090#1100
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Cursor = crHandPoint
+      Position.X = 16.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1054#1090#1084#1077#1085#1072
+      OnClick = Button2Click
+    end
+  end
+  object NameLabel: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = #1042#1099#1073#1088#1072#1085#1072' '#1089#1090#1072#1085#1094#1080#1103':'
+  end
+end
