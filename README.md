@@ -1,4 +1,4 @@
-# RadioPlayer
+# RadioPlay
 RadioPlayer на базе Bass.dll, написанный в далеком 2017
 
 # Screenshots
